@@ -1,0 +1,27 @@
+For the Blood Bank project in C:
+
+1. The program will ask for donor details:
+
+- Name
+- Age
+- Blood Group
+
+2. It will check eligibility:
+
+- If age ≥ 18 → Eligible to donate
+- If age < 18 → Not eligible
+
+3. The program will save the donor details in a file called bloodbank.txt.
+
+4. The file does NOT need to be created manually.
+   When the program runs, C automatically creates the file using "fopen()" if it doesn't exist.
+
+5. Every time a new donor is added, the data will be appended to the file so old data is not deleted.
+
+Example stored data in the file:
+
+Rahul 20 A+
+Priya 17 O-
+Aman 25 B+
+
+6. The program can also count and show how many donors exist for each blood group.
